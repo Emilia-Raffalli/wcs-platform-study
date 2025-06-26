@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
+      },
+      variants: {
+        extend: {
+          backgroun: ['disabled'],
+        }
+      },
   },
   plugins: [],
+}
 }

@@ -1,0 +1,8 @@
+.button-style {
+    @apply w-full py-2 rounded-lg transition cursor-pointer bg-indigo-600 text-white hover:bg-indigo-700;
+  }
+  
+  .button-disabled {
+    @apply w-full py-2 rounded-lg bg-gray-400 text-gray-300 cursor-not-allowed;
+  }
+  
