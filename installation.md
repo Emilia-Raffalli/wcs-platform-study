@@ -7,3 +7,6 @@ npm run dev
 
 <!-- Installation de React Router -->
 npm install react-router-dom
+
+<!-- Installation de Tailwind (avec Vite)-->
+https://tailwindcss.com/docs/installation/using-vite
